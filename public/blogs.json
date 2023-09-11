@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "cover-img": "https://i.ibb.co/TM12FdJ/1.jpg",
+        "title": "How to get your first job as a self-taught programmer",
+        "author-img": "https://i.ibb.co/vQgGYHt/boy1.png",
+        "author-name": "Mr. Raju",
+        "posted-date": "Mar 14 (4 Days ago)",
+        "reading-time": 5,
+        "hashtag": [
+            "beginners",
+            "programming"
+        ]
+    },
+    {
+        "id": 2,
+        "cover-img": "https://i.ibb.co/Pm900ky/2.png",
+        "title": "How to get your first job as a self-taught programmer",
+        "author-img": "https://i.ibb.co/YtJjsLr/boy2.jpg",
+        "author-name": "Mrs. Setara",
+        "posted-date": "Mar 14 (4 Days ago)",
+        "reading-time": 10 ,
+        "hashtag": [
+            "beginners",
+            "programming"
+        ]
+    },
+    {
+        "id": 3,
+        "cover-img": "https://i.ibb.co/RpX0Ymz/4.jpg",
+        "title": "How to get your first job as a self-taught programmer",
+        "author-img": "https://i.ibb.co/qWXbYDs/girl1.jpg",
+        "author-name": "Mina Mostofa",
+        "posted-date": "Mar 14 (4 Days ago)",
+        "reading-time": 8 ,
+        "hashtag": [
+            "beginners",
+            "programming"
+        ]
+    },
+    {
+        "id": 4,
+        "cover-img": "https://i.ibb.co/ySk4N9g/clark-tibbs.jpg",
+        "title": "How to get your first job as a self-taught programmer",
+        "author-img": "https://i.ibb.co/qWXbYDs/girl1.jpg",
+        "author-name": "Michael Brown",
+        "posted-date": "Mar 14 (4 Days ago)",
+        "reading-time": 15,
+        "hashtag": [
+            "beginners",
+            "programming"
+        ]
+    },
+    {
+        "id": 5,
+        "cover-img": "https://i.ibb.co/pR7L9tV/ilya-pavlov.jpg",
+        "title": "How to get your first job as a self-taught programmer",
+        "author-img": "https://i.ibb.co/kqJxm1N/girl2.jpg",
+        "author-name": "Sarah Wilson",
+        "posted-date": "Mar 14 (4 Days ago)",
+        "reading-time": 13 ,
+        "hashtag": [
+            "beginners",
+            "programming"
+        ]
+    }
+]
