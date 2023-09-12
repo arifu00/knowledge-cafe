@@ -1,6 +1,6 @@
-import { space } from "postcss/lib/list";
+import { FaRegBookmark } from "react-icons/fa";
 import PropTypes from "prop-types";
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleAddToBookmarks }) => {
   const {
     title,
     cover,
@@ -23,17 +23,25 @@ const Blog = ({ blog }) => {
             </p>
           </div>
         </div>
-        <div>
+        <div className="flex items-center">
           <small className="text-xl font-medium text-[#11111199]">
             {reading_time} min read
           </small>
+          <button
+            onClick={() => handleAddToBookmarks(blog)}
+            className="ml-3 text-2xl"
+          >
+            <FaRegBookmark></FaRegBookmark>
+          </button>
         </div>
       </div>
       <h2 className="text-4xl font-bold mt-8  ">{title}</h2>
       <p className="my-8">
-        {
-            hashtag.map((hash, idx)=> <span  key={idx}><a href="">#{hash} </a> </span>)
-        }
+        {hashtag.map((hash, idx) => (
+          <span key={idx}>
+            <a href="">#{hash} </a>{" "}
+          </span>
+        ))}
       </p>
     </div>
   );
@@ -41,5 +49,6 @@ const Blog = ({ blog }) => {
 
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
+  handleAddToBookmarks: PropTypes.func,
 };
 export default Blog;
